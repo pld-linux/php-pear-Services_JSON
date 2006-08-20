@@ -3,6 +3,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}
 Summary:	%{_pearname} - Simple encoder and decoder for JSON notation
+Summary(pl):	%{_pearname} - prosty koder i dekoder dla notacji JSON
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	0.1
@@ -22,9 +23,18 @@ This package provides a simple encoder and decoder for JSON notation.
 It is intended for use with client-side Javascript applications that
 make use of HTTPRequest to perform server communication functions -
 data can be encoded into JSON notation for use in a client-side
-javascript, or decoded from incoming Javascript requests. JSON format
+Javascript, or decoded from incoming Javascript requests. JSON format
 is native to Javascript, and can be directly eval()'ed with no further
 parsing overhead.
+
+%description -l pl
+Ten pakiet udostêpnia prosty koder i dekoder dla notacji JSON. Jest
+przeznaczony do u¿ywania z aplikacjami w Javascripcie po stronie
+klienta korzystaj±cymi z HTTPRequest do komunikacji z serwerem - dane
+mog± byæ kodowane w notacji JSON do u¿ywania z poziomu Javascriptu po
+stronie klienta lub dekodowane z przychodz±cych ¿±dañ Javascriptu.
+Format JSON jest natywny dla Javascriptu i mo¿e byæ bezpo¶rednio
+wykonany przez eval() bez dalszego przetwarzania.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
