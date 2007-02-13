@@ -3,7 +3,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}
 Summary:	%{_pearname} - Simple encoder and decoder for JSON notation
-Summary(pl.UTF-8):   %{_pearname} - prosty koder i dekoder dla notacji JSON
+Summary(pl.UTF-8):	%{_pearname} - prosty koder i dekoder dla notacji JSON
 Name:		php-pear-%{_pearname}
 Version:	0.1
 Release:	0.1
@@ -38,7 +38,7 @@ wykonany przez eval() bez dalszego przetwarzania.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
