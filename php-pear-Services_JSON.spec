@@ -6,7 +6,7 @@ Summary:	%{_pearname} - Simple encoder and decoder for JSON notation
 Summary(pl.UTF-8):	%{_pearname} - prosty koder i dekoder dla notacji JSON
 Name:		php-pear-%{_pearname}
 Version:	0.1
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://mike.teczno.com/JSON.tar.gz
