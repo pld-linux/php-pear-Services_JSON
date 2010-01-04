@@ -5,12 +5,12 @@
 Summary:	%{_pearname} - PHP implementaion of json_encode/decode
 Summary(pl.UTF-8):	%{_pearname} - prosty koder i dekoder dla notacji JSON
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
+Version:	1.0.2
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://download.pear.php.net/package/Services_JSON-%{version}.tgz
-# Source0-md5:	573ff2468330f7570c738957bc297ff4
+# Source0-md5:	87add4b48ffedebc98ef6eac030e5c4d
 URL:		http://pear.php.net/package/Services_JSON
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
