@@ -14,6 +14,7 @@ Source0:	http://download.pear.php.net/package/Services_JSON-%{version}.tgz
 URL:		http://pear.php.net/package/Services_JSON
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
