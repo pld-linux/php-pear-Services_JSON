@@ -1,16 +1,15 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Services_JSON
 %define		_status		stable
-%define		_pearname	%{_class}
+%define		_pearname	Services_JSON
 Summary:	%{_pearname} - PHP implementaion of json_encode/decode
 Summary(pl.UTF-8):	%{_pearname} - prosty koder i dekoder dla notacji JSON
 Name:		php-pear-%{_pearname}
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://download.pear.php.net/package/Services_JSON-%{version}.tgz
-# Source0-md5:	87add4b48ffedebc98ef6eac030e5c4d
+# Source0-md5:	bac7546a08c45d952786ffb8aa0bdb0e
 URL:		http://pear.php.net/package/Services_JSON
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
