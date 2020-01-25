@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	Services_JSON
 Summary:	%{_pearname} - PHP implementaion of json_encode/decode
